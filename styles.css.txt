@@ -5,3 +5,5 @@
   .card-body { padding: 1rem; }
 }
 .card-body { overflow-wrap: break-word; word-break: break-word; }
+
+a, button, input { transition: outline 0.2s ease; }
