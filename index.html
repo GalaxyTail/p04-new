@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P04. Адаптивный прототип</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="bg-white border-bottom py-3 mb-4">
+    <div class="container">
+      <h1 class="h3 mb-3">Синтетические заказы</h1>
+      <form id="search-form" class="row g-2 align-items-center" aria-label="Поиск заказа">
+        <div class="col-auto"><label for="search-input" class="col-form-label">Поиск по коду:</label></div>
+        <div class="col-auto"><input type="text" id="search-input" class="form-control" placeholder="Например, LAB-5012" autocomplete="off"></div>
+        <div class="col-auto"><button type="submit" id="check-btn" class="btn btn-primary">Проверить</button></div>
+      </form>
+      <div id="result-message" class="mt-3 fw-bold" aria-live="polite"></div>
+    </div>
+  </header>
+  <main class="container mb-5">
+    <ul id="orders-list" class="row list-unstyled g-3"></ul>
+  </main>
+  <script src="app.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

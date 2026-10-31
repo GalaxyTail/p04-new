@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 3px; }
+@media (max-width: 767px) {
+  .container { padding-left: 16px; padding-right: 16px; }
+  .card-body { padding: 1rem; }
+}
+.card-body { overflow-wrap: break-word; word-break: break-word; }
