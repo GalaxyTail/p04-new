@@ -7,3 +7,5 @@
 .card-body { overflow-wrap: break-word; word-break: break-word; }
 
 a, button, input { transition: outline 0.2s ease; }
+
+.card { border: 1px solid #e2e8f0; }
